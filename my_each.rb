@@ -1,13 +1,14 @@
 
-def my_each(collection)
-  i = 0
-  while i < collection.length
-    yield(collection[i])
-    i = i + 1
+def my_each(array)
+  counter = 0
+
+  while counter < array.length
+    yield(array[element])
+    counter = i + 1
   end
-  collection
+  array
 end
 
-my_each(collection) do |i|
-  puts i
+my_each(array) do |element|
+  element
 end
